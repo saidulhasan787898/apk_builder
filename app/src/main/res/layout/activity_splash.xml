@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f172a"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/splashAppLogo"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/ic_app_logo"
+            android:contentDescription="App Logo"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/splashAppTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Media_Server"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="লোড হচ্ছে..."
+            android:textColor="#94a3b8"
+            android:textSize="13sp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+{
+  "appId": "proj_1795357705947_6gqnq",
+  "appName": "Media_Server",
+  "packageName": "com.localapp.mediaserver",
+  "versionCode": 2,
+  "versionName": "1.0.0",
+  "serverEndpoint": "http://localhost:3000/api/app-config/proj_1795357705947_6gqnq",
+  "fallbackUrl": "http://192.168.0.125:8090/Media_Server/index.php",
+  "splashEnabled": true,
+  "splashType": "image",
+  "splashDurationSeconds": 3,
+  "splashBackgroundColor": "#0f172a",
+  "generatedAt": "2026-11-22T14:29:59.229Z",
+  "targetSdkVersion": 34,
+  "minSdkVersion": 24,
+  "permissions": {
+    "internet": true,
+    "allowGeolocation": true,
+    "allowCamera": true,
+    "allowMicrophone": true,
+    "allowStorage": true,
+    "backgroundPlay": true
+  },
+  "features": {
+    "dynamicRemoteUrlSync": true,
+    "pullToRefresh": true,
+    "offlineCache": true,
+    "clearCacheOnExit": false,
+    "zoomDisabled": true,
+    "allowCleartextTraffic": true
+  }
+}
